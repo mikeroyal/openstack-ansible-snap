@@ -1,10 +1,10 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/51798500-3782b700-21c8-11e9-83d6-9822ca172425.png">
+  <img src="https://user-images.githubusercontent.com/45159366/51893756-b14aaa00-235a-11e9-8aa3-11f39990f3a0.png">
   <br />
-  LXQt Desktop
+  OpenStack-Ansible
 </h1>
 
-<p align="center"><b>This is the snap for LXQt Desktop,the Lightweight Qt Desktop Environment. It works on Ubuntu, Fedora, Debian, and other major Linux distributions. </p>
+<p align="center"><b>This is the snap for OpenStack-Ansible, Ansible playbooks for deploying OpenStack. It works on Ubuntu, Fedora, Debian, and other major Linux distributions. </p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
 <p align="center">
@@ -20,7 +20,7 @@
 
 ## Install
 
-    sudo snap install --edge --devmode lxqt-desktop
+    sudo snap install openstack-ansible
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
