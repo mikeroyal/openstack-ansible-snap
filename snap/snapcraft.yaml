@@ -1,5 +1,5 @@
-name: botframework-emulator
-summary: BotFramework-Emulator is a desktop application that allows bot developers to test and debug bots built using the BotBuilder SDK.
+name: openstack-ansible
+summary: OpenStack-Ansible, Ansible playbooks for deploying OpenStack.
 description: 
   
 adopt-info: devmode # use 'strict' once you have the right plugs and slots
@@ -13,15 +13,15 @@ architectures:
   - build-on: arm64
 
 apps:
-  botframework-emulator:
-    command: botframework-emulator
+  openstack-ansible:
+    command: openstack-ansible
     plugs:
       - network
 
 parts:
-  botframework-emulator:
+  openstack-ansible:
     plugin: 
-    source: https://github.com/Microsoft/BotFramework-Emulator.git
+    source: https://github.com/openstack/openstack-ansible.git
     source-type: git
     override-pull: |
       snapcraftctl pull
